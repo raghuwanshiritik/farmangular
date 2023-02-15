@@ -1,0 +1,225 @@
+.carousel-caption{
+  color: #fff;
+  position: absolute;
+  top: 27%;
+  left: 153px;
+}
+.h2{
+  font-size: 70px;
+   border-bottom-style: ridge;
+  font-weight: bold;
+  border-bottom-color: #82c434;
+  text-transform: uppercase;
+}
+.w-100{
+  width: 100%;
+  height: 600px;
+}
+.a2{
+margin-top:-80px;
+margin-right: 300px;
+font-family: fangsong;
+}
+.a3{
+  font-size: 70px;
+  font-family: fangsong;
+margin-left: -200px;
+}
+
+
+.tm{
+  display: none;
+
+}
+
+.tw {
+  display: block;
+  margin-top:-80px;
+margin-left: -200px;
+font-family: fangsong;
+}
+
+@media(max-width:900px) {
+  .tm {
+    display: block;
+    margin-top:-80px;
+    margin-left: -100px;
+    font-family: fangsong;
+  }
+
+  .tw {
+    display: none;
+  }
+}
+
+
+
+.mob{
+  display: none;
+
+}
+
+.web {
+  font-size: 70px;
+  font-family: fangsong;
+margin-left: -200px;
+}
+
+@media(max-width:900px) {
+  .mob {
+    display: block;
+    font-size: 40px;
+  font-family: fangsong;
+margin-left: -150px;
+  }
+
+  .web {
+    display: none;
+  }
+}
+.btn{
+margin: 2px;
+width: 170px;
+}
+
+
+/* .m2{
+  display: none;
+
+}
+
+.m1 {
+  display: block;
+  margin-right: 300px;
+
+}
+
+@media(max-width:900px) {
+  .m2 {
+    display: block;
+    margin-left: -100px;
+  }
+
+  .m1 {
+    display: none;
+  }
+} */
+
+.nmm {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+ margin-right:800px;
+  height: 70px;
+  width: 170px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.nmj {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left:-250px;
+  height: 70px;
+  width: 170px;
+  padding-left: 20px;
+  margin-top: -100px;
+}
+
+.wq1{
+  margin-left:265px;
+
+}
+.wq2{
+  margin-top: -200px;
+  margin-left:50px;
+  color:#fff;
+  font-family: maths;
+}
+.wq3{
+  margin-top: 20px;
+  margin-left:50px;
+  color:#fff;
+  font-family: maths;
+
+}
+.q{
+  position: relative;
+  margin-top: -50px;
+ height: 300px;
+}
+.q4{
+  height: 300px;
+
+}
+
+
+
+.mq1 {
+  display: none;
+
+}
+.wq1 {
+  display: block;
+  margin-left:265px;
+}
+
+@media(max-width:900px) {
+  .mq1 {
+    display: block;
+margin-left: 50px;
+  }
+
+  .wq1 {
+    display: none;
+  }
+}
+
+.mq2 {
+  display: none;
+
+}
+.mq3 {
+  display: none;
+
+}
+.wq2 {
+  display: block;
+  margin-top: -200px;
+  margin-left:50px;
+  color:#fff;
+  font-family: maths;
+}
+.wq3 {
+  margin-top: 20px;
+  margin-left:50px;
+  color:#fff;
+  font-family: maths;
+}
+
+@media(max-width:900px) {
+  .mq2 {
+    display: block;
+   margin-top: -140px;
+    margin-left:50px;
+    color:#fff;
+    font-family: maths;
+
+  }
+  .mq3 {
+    display: block;
+    margin-top: 20px;
+    margin-left:50px;
+    color:#fff;
+    font-family: maths;
+
+  }
+
+  .wq2 {
+    display: none;
+  }
+  .wq3 {
+    display: none;
+  }
+}
+

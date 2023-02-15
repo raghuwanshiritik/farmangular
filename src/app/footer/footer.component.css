@@ -1,0 +1,54 @@
+.wu{
+  width: 100%;
+  margin-top: 100px;
+  background-color: #34AD54;
+}
+.cc{
+  margin-top: 50px;
+}
+.para1{
+  margin-top: 28px;
+}
+.bn{
+  margin-top: -25px;
+  margin-left:30px;
+  font-family: maths;
+  font-size: 18px;
+}
+.fd{
+  margin: 10px;
+  font-size: 40px;
+  margin-top: 20px;
+  color: #f93;
+}
+.mv{
+  background-color: #f93;
+  height: 450px;
+  margin-top: -40px;
+}
+.para2{
+margin-top: 70px;
+}
+.gz{
+font-family: fantasy;
+font-size: 40px;
+}
+.bb{
+font-family: cursive;
+margin-top: 20px;
+}
+.jc{
+margin-top: 40px;
+background-color: #34AD54;
+}
+.mainfooter{
+margin-top: -10px;
+background-color: #263A4F !important;
+width: 100%;
+height: 80px;
+}
+.gg{
+margin-top: 30px;
+font-size: 20px;
+font-family: maths;
+}

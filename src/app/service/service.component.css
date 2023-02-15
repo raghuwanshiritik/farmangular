@@ -1,0 +1,114 @@
+.na {
+  width: 100%;
+  height: 500px;
+}
+
+.m1 {
+  margin-top: -400px;
+  margin-left: 100px;
+  color: aliceblue;
+  font-size: 100px;
+}
+
+.m2 {
+  margin-top: -400px;
+  color: aliceblue;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.nmm {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: 100px;
+  height: 70px;
+  width: 170px;
+  margin-top: 40px;
+}
+
+.m2 {
+  display: none;
+}
+
+.m1 {
+  display: block;
+}
+
+@media(max-width:768px) {
+  .m2 {
+    display: block;
+  }
+
+  .m1 {
+    display: none;
+  }
+}
+.me{
+    margin-top: 200px;
+}
+.qe{
+    color:green;
+}
+.te{
+    font-size: 50px;
+    font-family: bold;
+}
+.bz:hover{
+    background:#34AD54;;
+}
+.mq:hover{
+  color:aquamarine;
+}
+.ty{
+font-size: 20px;
+}
+.bg{
+color:orange;
+margin-top:40px;
+font-size: 70px;
+}
+.re{
+margin-top: 20px;   }
+.be{
+margin-top: 20px;   }
+.mk{
+margin-top: 50px;
+}
+.mp{
+  margin-top: 100px;
+
+background-size: cover;
+}
+.hh{
+background-size: cover;
+}
+.why{
+margin-top: 100px;
+background-image: url(https://demowebsite12.netlify.app/img/testimonial.jpg);
+background-size: cover;
+width: 100%;
+height:600px;
+}
+.nm{
+width: 800px;
+height: 400px;
+text-align: center;
+margin-top: 50px;
+}
+.rounded-circle {
+border-radius: 50% !important;
+}
+.p-2 {
+padding: 0.5rem !important;
+}
+.border {
+border: 2px solid #dee2e6 !important;
+border-color: #f93 !important;
+}
+.text-white {
+color: #fff !important;
+}
+.text-center {
+text-align: center !important;
+}

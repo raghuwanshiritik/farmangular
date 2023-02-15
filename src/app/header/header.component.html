@@ -1,0 +1,56 @@
+ <!--Toopbar start-->
+ <div class="container-fluid px-5">
+  <div class="row align-items-center py-3">
+      <div class="col-md-3">
+          <div class="d-flex align-items-center justify-content-start">
+              <i class="fa-solid fa-phone-volume text-success" style="font-size:40px;"></i>
+          <h2 class="mb-0">+012 345<br>6789</h2>
+          </div>
+        </div>
+          <div class="col-md-6">
+              <div class="d-flex align-items-center justify-content-center">
+                  <a href="" class="navbar-brand">
+                      <h1 class="text-success r1"><span class="text-warning">Farm</span>Fresh</h1>
+                  </a>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                <div>
+                  <a class="btn btn-success btn-square rounded-circle me-2" href="a"><i class="fa-brands fa-twitter"></i></a>
+                  <a class="btn btn-success btn-square rounded-circle me-2" href="a"><i class="fa-brands fa-facebook"></i></a>
+                  <a class="btn btn-success btn-square rounded-circle me-2" href="a"><i class="fa-brands fa-linkedin"></i></a>
+                  <a class="btn btn-success btn-square rounded-circle me-2" href="a"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+  </div><!--row-end-->
+</div><!--container-fluid-end-->
+<nav class="navbar bg-success navbar-dark navbar-expand-md shadow-sm py-3 px-3 py-lg-0 fixed">
+  <div class="container-fluid">
+      <a href="" class="navbar-brand d-lg-none">
+          <h1 class="text-primary"><span class="text-warning">Resturant</span>Food</h1>
+      </a>
+      <!--mobile-view-->
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#a">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--mobile-view-end-->
+
+
+      <!--menu start-->
+      <div class="navbar-collapse collapse" id="a">
+        <ul class="navbar-nav ms-auto b">
+      <li><a routerLink="/" class="nav-link" style="color: #fbaa1a;">HOME</a><li>
+      <li><a routerLink="about" class="nav-link">ABOUT</a></li>
+      <li><a routerLink="service"  class="nav-link">Service</a></li>
+   <li><a routerLink="product" class="nav-link" >Product</a></li>
+<li><a routerLink="contact" class="nav-link">Contact</a></li>
+        </ul>
+          </div>
+          <!-- <a href=""class="btn-green mt-20px">
+              <i class="fa-solid fa-calendar-week"></i>Make A Payment:
+            </a> -->
+      </div><!--menu-end-->
+  <!--container-fluid-->
+  </nav>
+
+  <router-outlet></router-outlet>

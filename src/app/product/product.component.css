@@ -1,0 +1,119 @@
+.na {
+  width: 100%;
+  height: 500px;
+}
+
+.m1 {
+  margin-top: -400px;
+  margin-left: 100px;
+  color: aliceblue;
+  font-size: 100px;
+}
+
+.m2 {
+  margin-top: -400px;
+  color: aliceblue;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.jmm {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: 100px;
+  height: 70px;
+  width: 180px;
+  margin-top: 40px;
+}
+
+.m2 {
+  display: none;
+}
+.m1 {
+  display: block;
+}
+
+@media(max-width:768px){
+  .m2 {
+    display: block;
+  }
+  .m1 {
+    display: none;
+  }
+}
+.kj{
+  margin-top: 250px;
+  width: 100%;
+}
+
+.nh{
+position: relative;
+content: "";
+width:100% ;
+height: 55%;
+background: url(https://demowebsite12.netlify.app/img/bg-product-1.png) no-repeat, url(https://demowebsite12.netlify.app/img/bg-product-2.png) right bottom no-repeat;
+background-color:#34AD54;
+text-align: center;
+margin-top: 50px;
+}
+.uu{
+width: 100%;
+height: 100%;
+}
+.ui{
+text-align: center;
+color: green;
+}
+.ti{
+text-align: center;
+font-size: 50px;
+font-family: fantasy;
+
+}
+.mx{
+margin-top: 100px;
+width: 100%;
+height: 100%;
+background-color: #34AD54;
+}
+.md{
+background-color: #FF9933;
+width: 100px;
+height: 50px;
+text-align: center;
+}
+.h2{
+text-align: center;
+color:darkmagenta;
+margin-top: -50px;
+}
+.h4{
+text-align: center;
+font-size: 60px;
+color: white;
+font-family: fantasy;
+
+}
+.h5{
+font-family: fantasy;
+margin-top: 10px;
+font-size: 25px;
+
+}
+.h6{
+font-family: maths;
+margin-top: 10px;
+font-size: 18px;
+}
+.h8{
+margin-top: 20px;
+font-size: 20px;
+}
+.ob{
+width: 100%;
+height: 100%;
+}
+
+
+
